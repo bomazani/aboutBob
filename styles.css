@@ -1,0 +1,57 @@
+body {
+    background-color: white;
+    border: 0px;
+    margin: 0;
+}
+
+/* basic sections */
+header {
+    background-color: rgb(244, 167, 105);
+}
+
+main {
+
+}
+
+.landing {
+    background-color: rgb(90, 123, 134);
+    color: white;
+}
+
+.aboutme {
+    background-color: white;
+}
+
+.aboutTitle {
+    color: rgb(90, 123, 134);
+}
+
+.AboutImgTxt {
+
+}
+
+.aboutImg {
+
+}
+
+.aboutTxt {
+
+}
+
+.gallery-wrapper {
+    background-color: White;
+}
+
+#tropical {
+    /* background-color: red; */
+}
+
+#succulents {
+    /* background-color: orange; */
+}
+
+#bonsai {
+    /* background-color: aqua; */
+}
+
+

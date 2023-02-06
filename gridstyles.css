@@ -1,0 +1,99 @@
+* { box-sizing: border-box;}
+
+html {
+  font-size: 100%;
+}
+
+.nav {
+    background-color: darkgreen;
+    color: white;
+    margin-bottom: 20px;
+    position: fixed;
+    padding: 10px 16px;
+    background: #555;
+    Width: 100%;
+}
+
+/* .header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+} */
+  
+/* Page content */
+.content {
+    padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+  
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 102px;
+}
+
+body {
+  padding: 1rem;
+  font-family: Verdana, Geneva, sans-serif;
+  color: white;
+  background-color:darkgreen;
+}
+
+.intro {
+    padding-top: 100px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5;  
+}
+
+p {
+  margin: .5rem 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.profilePic {
+    height: 100px;
+    /* padding-top: 100px; */
+}
+
+/* First the Grid */
+.gallery-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1.5rem;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 100px;
+}
+
+/* The Picture Frame */
+.gallery-frame {
+  padding: .5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #133c01;
+  color: #d9d9d9;
+}
+
+/* The Images */
+.gallery-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.gallery-img:hover {
+  opacity: .7;
+}
